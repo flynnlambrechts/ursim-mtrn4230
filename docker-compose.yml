@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  ursim:
+    image: universalrobots/ursim_e-series:5.9.4
+    build: .
+    environment:
+      - ROBOT_MODEL=UR5
+    ports:
+      - "5900:5900"   # VNC
+      - "6080:6080"   # Web GUI
+      - "30003:30003"   # Real Time
+      - "30004:30004"   # RTDE
+    volumes:
+      - "${HOME}/urcaps:/urcaps"  # For External Control URCap
+    stdin_open: true
+    tty: true
+    networks:
+      ursim_net:
+        ipv4_address: 192.168.56.101
+    restart: "no"
+
+networks:
+  ursim_net:
+    external: true
+
