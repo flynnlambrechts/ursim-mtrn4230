@@ -109,7 +109,7 @@ docker compose down
 
 ## Configurations
 
-1. First thing to do in the sim is to go the the `hamburger icon in the top right -> settings -> Password` and set a password this enables remote and manual mode.
+1. First thing to do in the sim is to go the the `hamburger icon in the top right -> settings -> Password` and set a password this enables automatic and manual mode.
 2. Then go to `System -> Remote Control` and enable remote control mode.
 3. Check in the top you see this icon
 
