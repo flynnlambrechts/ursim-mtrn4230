@@ -117,7 +117,7 @@ docker compose down
 
 ## Connecting from MATLAB
 
-Make sure the robot is powered on in the sim. You can use any of the files from to test
+Make sure the robot is powered on in the sim. You can use any of the files from the provided course repo to test
 
 <https://github.com/rag-h/MATLAB_UR5e_RTDE/tree/main/examples>
 
