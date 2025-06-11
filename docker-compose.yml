@@ -1,7 +1,6 @@
 services:
     ursim:
         image: universalrobots/ursim_e-series:5.9.4
-        build: .
         environment:
             - ROBOT_MODEL=UR5
         ports:
