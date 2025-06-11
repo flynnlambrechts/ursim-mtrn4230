@@ -99,6 +99,14 @@ Despite what it says you wont be able to access it from the ip address mentioned
 
 If you instead would like to use the ip follow the guide under Network Setup [here](https://docs.universal-robots.com/Universal_Robots_ROS2_Documentation/doc/ur_client_library/doc/setup/ursim_docker.html)
 
+## Quitting the Simulator
+
+As the output suggests you can hit `Ctrl + c` to quit the sim. But if you loose this terminal you wont be able to do this. Instead you can `cd` back into the folder and run
+
+```
+docker compose down
+```
+
 ## Configurations
 
 1. First thing to do in the sim is to go the the `hamburger icon in the top right -> settings -> Password` and set a password this enables remote and manual mode.
