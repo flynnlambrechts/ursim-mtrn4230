@@ -45,7 +45,7 @@ $ ursim-mtrn4230 git:(main) ✗ docker compose up
 Cannot connect to the Docker daemon at unix:///Users/user/.docker/run/docker.sock. Is the docker daemon running?
 ```
 
-Or you can just find the desktop app you downloaded previously and open that.
+If you do, just find the desktop app you downloaded previously and open that and try again.
 If you don't see an error then you should see things start happening.
 You will know it has worked if you see something like this
 
