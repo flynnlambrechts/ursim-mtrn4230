@@ -10,11 +10,11 @@ While the VM method creates a VM instead I will be using Docker which allows us 
 -   docker
 -   docker-compose
 
-You need to have installed Docker and docker compose instruction for doing this depend on your operating system and Docker has already provided guides for doing this [here](https://docs.docker.com/compose/install/).
+You need to have installed Docker and docker compose installed. Instructions for doing this depend on your operating system and Docker has already provided guides for doing this [here](https://docs.docker.com/compose/install/).
 
 ### Mac + Homebrew
 
-If you are on Mac its even easier to do it with homebrew. If you don't know what homebrew is then just ignore this section and follow the guide on the Docker website. If you do know what homebrew is then run
+If you are on Mac its even easier to do it with homebrew. If you don't know what homebrew is then just ignore this section and follow the guide on [the Docker website](https://docs.docker.com/compose/install/). If you have homebrew then run
 
 ```
 brew install docker docker-compose
@@ -45,7 +45,7 @@ $ ursim-mtrn4230 git:(main) ✗ docker compose up
 Cannot connect to the Docker daemon at unix:///Users/user/.docker/run/docker.sock. Is the docker daemon running?
 ```
 
-If you do, just find the desktop app you downloaded previously and open that and try again.
+If you do, just find the Docker desktop app you downloaded previously and open that and try again.
 If you don't see an error then you should see things start happening.
 You will know it has worked if you see something like this
 
