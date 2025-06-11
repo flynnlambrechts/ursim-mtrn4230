@@ -97,7 +97,7 @@ ursim-1  |
 Despite what it says you wont be able to access it from the ip address mentioned in the output can instead access the simulator now from the URL.
 <http://localhost:6080/vnc.html?host=localhost&port=6080>.
 
-If you instead would like to use the ip follow the guide under Network Setup [here](https://docs.universal-robots.com/Universal_Robots_ROS2_Documentation/doc/ur_client_library/doc/setup/ursim_docker.html)
+Its not required but if you instead would like to use the ip mentioned follow the guide under Network Setup [here](https://docs.universal-robots.com/Universal_Robots_ROS2_Documentation/doc/ur_client_library/doc/setup/ursim_docker.html)
 
 ## Quitting the Simulator
 
