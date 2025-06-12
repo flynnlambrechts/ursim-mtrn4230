@@ -134,4 +134,12 @@ host = '127.0.0.1';
 
 ## Trouble Shooting
 
-Sim works but shows no controller? -> update your docker see here <https://forum.universal-robots.com/t/container-for-ursims-polyscope-reports-no-controller/26510>
+-   Sim works but shows no controller? -> update your docker see [here](https://forum.universal-robots.com/t/container-for-ursims-polyscope-reports-no-controller/26510)
+
+-   Docker quitting with error
+
+```
+assertion failed [result.value != EEXIST]: VmTracker attempted to allocate existing mapping
+```
+
+try updating Docker and MacOS see [here](https://github.com/docker/for-mac/issues/6905)
